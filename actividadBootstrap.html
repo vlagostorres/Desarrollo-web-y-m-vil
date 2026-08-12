@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        h3 {
+            color: aliceblue;
+        }
+        p {
+            color: aliceblue;
+            text-align: justify;
+        }
+    </style>
+</head>
+  <body style="background: linear-gradient( rgb(54, 170, 216), black);">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <div class="container text-center">
+        <div style="display: flexbox; justify-content: center; flex-direction: column;">
+            <h1 style="margin-top: 1rem; color: rgb(15, 15, 95);">Subnautica</h1>
+            <div id="carouselExampleCaptions" class="carousel slide" style="margin-top: 1rem; margin-bottom: 1rem;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://i.pinimg.com/1200x/9e/a8/98/9ea8986b197e6d87b97a1796452a95c5.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="text-shadow: 0px 2px 2px black;">Explora</h5>
+                            <p style="text-shadow: 0px 2px 2px black; text-align: center;">Estudia las formas de vida y recolecta recursos.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.pinimg.com/1200x/43/a9/56/43a95672325a1f21629231b52c4be359.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="text-shadow: 0px 3px 2px black;">Sobrevive</h5>
+                            <p style="text-shadow: 0px 3px 2px black; text-align: center;">Encontraras criaturas amigables, otras no tanto.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.pinimg.com/1200x/a4/fc/5c/a4fc5c7d67aba56d7f4b5de0682de1b4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="text-shadow: 0px 3px 2px black;">Construye tu base</h5>
+                            <p style="text-shadow: 0px 3px 2px black; text-align: center;">Busca un buen lugar y contruye libremente.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col-sm-6 col-md-5 col-lg-6">
+                        <h3>Acerca del juego</h3>
+                        <p>
+                            Subnautica es un juego de acción-aventura y supervivencia desarrollado y publicado por 
+                            Unknown Worlds Entertainment. Permite al jugador explorar libremente un planeta oceánico 
+                            alienígena, conocido como 4546B, recolectando recursos para sobrevivir, desarrollando una 
+                            historia a lo largo del juego.
+                        </p>
+                        <p>
+                            El juego se publicó en acceso anticipado en diciembre de 2014 para Windows, en junio de 
+                            2015 para MacOS, y para Xbox One en mayo de 2016. El 23 de enero de 2018 se lanzó al mercado 
+                            la versión 1.0 de Subnautica para Windows y el 4 de diciembre de 2018, para Xbox y Playstation 4. 
+                            Su secuela, Subnautica: Below Zero, se publicó en acceso anticipado el 14 de Mayo de 2018.
+                        </p>
+                        <h3>Mecánicas de supervivencia</h3>
+                        <P>
+                            El núcleo del juego se basa en la gestión de necesidades básicas que varían según el modo de 
+                            dificultad elegido:<br>
+                        </P>
+                        <P>
+                            <b>Gestión de recursos:</b> El jugador debe vigilar constantemente sus niveles de oxígeno, salud, 
+                            hambre y sed. El oxígeno es el recurso más crítico, limitando el tiempo de exploración en las 
+                            profundidades antes de tener que regresar a la superficie o a una base.<br>
+                            <b>Recolección y fabricación:</b> Mediante el uso de un "Fabricador", el jugador transforma materias 
+                            primas en herramientas útiles como escáneres, linternas, tanques de aire de alta capacidad y trajes 
+                            de buceo especializados.
+                        </P>
+                    </div>
+                    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+                        <h3>Exploración y Biomas</h3>
+                        <P style="text-align: justify;">
+                            El mapa de juego se divide en diversos biomas, cada uno con su propia flora, fauna y peligros. 
+                            Estos van desde arrecifes de coral poco profundos y luminosos hasta fosas abisales oscuras y cuevas 
+                            volcánicas situadas a más de 1,000 metros de profundidad. Los biomas mas resaltados y peligrosos 
+                            son demasiados, pero los que contienen gran cantidad de "Leviatanes" Son los siguientes: Crash Zone, 
+                            Northern Blood Kelp Zone, The dunes, Lost river, Inactive/Active Lava zone, Grand Reef y la más 
+                            grande y mortal, La "Ecological Dead Zone" o Void. Siendo el limite del juego lleno de "Ghost Leviathans".
+                        </P>
+                        <h3>Construcción y Vehículos</h3>
+                        <P>
+                            A medida que se avanza, el jugador puede construir infraestructuras complejas utilizando el "Constructor 
+                            de Hábitats":<br>
+                        </P>
+                        <P>
+                            <b>Bases submarinas:</b> Estructuras modulares que sirven como refugio, almacenamiento y estaciones de 
+                            recarga de oxígeno.<br>
+                            <b>Vehículos:</b> El juego permite la creación de naves para facilitar la exploración profunda, incluyendo 
+                            el Seamoth (un pequeño sumergible ágil), el Prawn Suit (un exotraje para caminar por el fondo marino) y 
+                            el Cyclops (un submarino gigante que actúa como base móvil).
+                        </P>
+                    </div>
+                    <div class="accordion" id="accordionPanelsStayOpenExample" style="margin-top: 1rem; margin-bottom: 2rem;">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style="background-color: rgb(7, 33, 44); color: aliceblue;">
+                                    Desarrollo
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body" style="background-color: rgb(23, 73, 94);">
+                                    <p>
+                                        Subnautica fue anunciado por Unknown Worlds Entertainment el 17 de diciembre de 2013, con 
+                                        Charlie Cleveland como el director del juego y el principal programador del juego, y Hugh 
+                                        Jeremy como el productor.
+                                    </p>
+                                    <p>
+                                        El equipo de desarrollo optó por usar el motor de Unity en lugar de Spark, el motor utilizado 
+                                        para el juego anterior de la compañía, Natural Selection 2. El productor de Subnautica, Hugh Jeremy 
+                                        justificó esta decisión debido a las diferentes demandas que el juego pone en el motor, y "porque 
+                                        [el equipo] no incluye a las personas que trabajan en Spark, no es apropiado que Subnautica use Spark. 
+                                        Al usar Unity para Subnautica, Spark puede seguir desarrollándose en ciertas direcciones, mientras 
+                                        que Subnautica se desarrolla en otras. Usar Spark para Subnautica sería como intentarlo para caber 
+                                        una clavija cuadrada en un agujero redondo".
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style="background-color: rgb(7, 33, 44); color: aliceblue">
+                                    Recepción
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body" style="background-color: rgb(23, 73, 94);;">
+                                    <p>
+                                        En el lanzamiento, el juego recibió críticas "generalmente positivas" de acuerdo con el agregador 
+                                        de reseñas Metacritic, obteniendo una valoración de 87/100 para la versión de Windows.
+                                    </p>
+                                    <p>
+                                        Ian Birnbaum de PC Gamer describió a Subnautica como un "Minecraft submarino" y comentó que "con 
+                                        un desarrollador experimentado al timón y una variedad ilimitada de océanos con los que jugar, 
+                                        a Subnautica le va a costar mucho salir mal. La caja de herramientas se profundiza y la forma del 
+                                        juego final se establece, Subnautica será un ejemplo único de cómo la supervivencia puede ser tensa, 
+                                        gratificante, divertida y bella". Marsh Davies de Rock, Paper, Shotgun elogió la naturaleza 
+                                        gratificante explorando el mundo de Subnautica, pero criticando la "arbitrariedad" y la falta de 
+                                        intuición en algunas de las recetas del juego.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
